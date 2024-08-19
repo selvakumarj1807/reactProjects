@@ -7,7 +7,7 @@ function WhatsAppButton() {
     <div className="whatsapp-button-container">
       <a
         aria-label="Chat on WhatsApp"
-        href="https://wa.me/9942531150?text=Hello%20there!"
+        href="https://wa.me/9688896510?text=Hello%20there!"
       >
         <img
           alt="Chat on WhatsApp"
