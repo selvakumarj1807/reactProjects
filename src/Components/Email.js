@@ -10,7 +10,7 @@ function App() {
         const otp = Math.floor(100000 + Math.random() * 900000); // Generate 6-digit OTP
         const emailBody = `Your 6 Digit OTP Code: ${otp}`;
 
-        axios.post('http://localhost:5000/send-email', {
+        axios.post('https://backend-2066.onrender.com/send-email', {
             to: email,
             subject: 'Email Verification',
             text: emailBody,
